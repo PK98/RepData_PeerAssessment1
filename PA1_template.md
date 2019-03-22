@@ -75,7 +75,7 @@ output:
 
 ![](PA1_template_files/figure-html/stepshistogram-1.png)<!-- -->
 
-The above graph is stored as stepshistogram-1.png in the figure directory
+The above graph is stored as figure1.jpeg in the figure directory
 
 
 ## 3. Average daily activity pattern
@@ -96,7 +96,7 @@ The above graph is stored as stepshistogram-1.png in the figure directory
 
 ![](PA1_template_files/figure-html/avgdailysteps-1.png)<!-- -->
 
-The above graph is stored as avgdailysteps-1.png in the figure directory
+The above graph is stored as figure2.jpeg in the figure directory
 
 
 ###  Report interval with highest activity
@@ -227,7 +227,7 @@ par(mfrow = c(1,2))
 
 ![](PA1_template_files/figure-html/stepshistogramNew-1.png)<!-- -->
 
-The above graph is stored as stepshistogramNew-1.png in the figure directory. 
+The above graph is stored as figure3.jpeg in the figure directory. 
   
 We observe a change in the shape of the graphs based on the old and new data.  
 There is a numeric change seen in mean while median remained more or less the same. This is because mean is effected by every value in data set while median relies more on the middle order data when arranged in ascending order.
@@ -284,4 +284,4 @@ xyplot(data = plotdata, avgsteps ~ interval | daytype, layout = c(1,2), type = "
 
 ![](PA1_template_files/figure-html/daytypeactivityplot-1.png)<!-- -->
 
-The above graph is stored as daytypeactivityplot-1.png in the figure directory.
+The above graph is stored as figure4.jpeg in the figure directory.
